@@ -14,6 +14,7 @@
   "dependencies": {
     "@rusticisoftware/scormcloud-api-v2-client-javascript": "^3.0.0",
     "axios": "^1.4.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "prompt-sync": "^4.2.0"
   }
