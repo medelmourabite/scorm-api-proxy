@@ -3,7 +3,7 @@ var cors = require('cors');
 
 const { getCompletionStatus, getLaunchLink } = require('./api');
 const app = express();
-const PORT = 80;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(function (req, res, next) {
